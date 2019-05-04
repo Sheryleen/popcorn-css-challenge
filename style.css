@@ -3,3 +3,108 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body{
+    background-color: #D4A76A;
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px; 
+}
+/* utility class */
+    .center-text{
+        text-align: center;
+    }
+/* nav-bar styles */
+.nav-menu{
+    display: flex; 
+    align-items: flex-start;
+    background-color: #ffdbaa;
+    border-block-end: 1px solid black;
+    padding-block-end: 30px;
+}
+
+.title{
+    margin-left: 30px;
+}
+
+.buttons{
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.nav-items{
+    margin-left: auto;
+    align-self: center;   
+}
+.button1{
+    padding: 15px;
+}
+
+.button2{
+    padding: 15px;
+}
+
+.button3{
+    padding: 15px;
+}
+
+.button4{
+    padding: 15px;
+}
+h3{
+    font-weight: bold;
+}
+
+button{
+    background-color: #805215;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+.boxes{
+    display: flex;
+}
+.box-item{
+    flex: 1;
+    margin: 80px;
+    background-color: white;
+    padding: 10px;
+}  
+.item-button{
+    width: 80%;
+    justify-content: center;
+    font-weight: bold;
+    padding: 20px;
+}    
+
+.wrap{
+    padding-block-start: 19px;
+}
+.buttonwrap{
+    text-align: center;
+
+}
+
+.box4{
+    flex: 1;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: white;
+    padding: 10px;
+}
+.item-button{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    font-weight: bold;
+}    
+
+.buttonwrap{
+    text-align: center;
+}
+
+.button5{
+   display: block;
+    width: 100%;
+}
